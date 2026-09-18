@@ -24,10 +24,6 @@
 
 **The agent harness** is the runtime scaffold around a language model: prompt assembly, tool interfaces, context management, the control loop, sub-agent orchestration, memory, and output parsing. For a fixed model it is often the larger lever on end-to-end agent performance; [The Harness as a Variable](#the-harness-as-a-variable) collects the benchmarks that hold the model fixed and vary the harness. Until 2025 it was engineered almost entirely by hand.
 
-The entries here **search, optimize, repair, train, co-evolve, or measure** the harness rather than the weights. The distinction is the point.
-
-Paper dates use the arXiv ID month (first submission), not a conference acceptance date. Expand **Reading notes** beneath each list for authors, mechanisms, and evidence. Entries in [Evidence & Critique](#evidence--critique) argue against this list's own premise: a curated list that only accumulates positive results is not useful for research.
-
 ---
 
 ## Research Timeline
@@ -38,12 +34,8 @@ Paper dates use the arXiv ID month (first submission), not a conference acceptan
 
 <p align="center"><em>Timeline of harness evolution research: foundations, training, and evaluation above; harness evolution methods below.</em></p>
 
-Selected works by first-submission period (not to scale). Logos show a representative author affiliation: the first author's first listed institution, or the first listed institution for team papers. Full titles and reading notes appear in the bibliography below.
-
 <details>
 <summary>Institution logos and source notes</summary>
-
-99 of the 104 selected works have an institution logo. TodoEvolve, HarnessX, and PILOT display the team names given in their papers; EvoUndo is marked **Ind.** (independent researchers); MetaRSI / RSI2 is marked **N/S** (institution not stated in the inspected author information). A logo identifies an affiliation, not sole authorship or institutional endorsement.
 
 [Paper affiliation sources](assets/timeline-affiliations.json) · [Logo sources](assets/institutions.json). Logos remain the property of their respective owners.
 
